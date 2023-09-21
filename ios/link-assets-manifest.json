@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Avenir-Regular.ttf",
+      "sha1": "ea4f74d433612d9d044576534d3a3d8709412ed6"
+    },
+    {
+      "path": "assets/fonts/FontsFreeNetUlmGrotesk-Bold.ttf",
+      "sha1": "90b4411c6c52c62d3f1b13421d286aed360612a9"
+    },
+    {
+      "path": "assets/fonts/Neuropolitical-Regular.ttf",
+      "sha1": "16a5ef9a6c6906e9802e28835310636df01e61d7"
+    }
+  ]
+}

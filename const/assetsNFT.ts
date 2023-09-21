@@ -1,0 +1,87 @@
+const ASSETSNFT = [
+    {
+        title: "Illusions of Darkness",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage1.png"),
+    },
+    {
+        title: "Raphael's Hallucination",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage2.png"),
+    },
+    {
+        title: "Infinite Space of Variations",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage3.png"),
+    },
+    {
+        title: "Expulsion from Paradise",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage1.png"),
+    },
+    {
+        title: "Bring Me the Open Space ",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage2.png"),
+    },
+    {
+        title: "That Which Falls Upwards",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage3.png"),
+    },
+    {
+        title: "Mysterious Space  Squares",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage2.png"),
+    },
+    {
+        title: "Enter the World Shikari",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage1.png"),
+    },
+    {
+        title: "Of Aliens & Men in Space",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage3.png"),
+    },
+    {
+        title: "Serpentin of Happiness",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage1.png"),
+    },
+    {
+        title: "The Magic Galaxies",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage2.png"),
+    },
+    {
+        title: "The Magic Galaxies",
+        points: 0.24,
+        highestOffer: 0.18,
+        floor: 0.18,
+        imgUri: require("../assets/images/createImage2.png"),
+    }
+];
+export { ASSETSNFT }

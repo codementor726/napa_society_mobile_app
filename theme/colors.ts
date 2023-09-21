@@ -1,0 +1,15 @@
+export const themeColors = {
+  primaryColor: "white",
+  secondaryColor: "#0A1313",
+  aquaColor: "#16E6EF",
+  garyColor: "#677778",
+  darkGray: "#181B1B",
+  cardsColor: "#192020",
+  black: "#000000",
+  lightred: "#FF4E51",
+  lightAquaColor: "#427171",
+  darkColor: "#141414",
+  blurBackground: "#0A131333",
+  alertBg: "#261919",
+  transparent: "#00000000",
+};

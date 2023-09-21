@@ -1,0 +1,15 @@
+export default {
+  userImage: require("./images/user.png"),
+  liveImageOne: require("./images/image1.png"),
+  liveImageTwo: require("./images/image2.png"),
+  liveImageThree: require("./images/image3.png"),
+  liveImageFour: require("./images/image4.png"),
+  liveImageFive: require("./images/image5.png"),
+  liveImageSix: require("./images/image6.png"),
+  bgImage: require("./images/bgImage.png"),
+  gradient: require("./images/gradient1.png"),
+  napaIcon: require("./images/napa.png"),
+  starIcon: require("./images/starIcon.png"),
+  chatIcon: require("./images/ChatIcon.png"),
+  userProfileIcon: require("./images/userProfileIcon.png"),
+};
