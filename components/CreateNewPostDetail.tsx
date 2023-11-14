@@ -38,7 +38,6 @@ import {useToast} from 'react-native-toast-notifications';
 import {setSocialMintedPost} from '../store/slices/socialArtData';
 import {Video as CompressVideo} from 'react-native-compressor';
 import ErrorToast from '../common/toasters/ErrorToast';
-import {createThumbnail} from 'react-native-create-thumbnail';
 const CreatNewPostDetail = () => {
   const {goBack, navigate} = useNavigation<any>();
   const [titleError, setTitleError] = useState(false);
@@ -218,30 +217,30 @@ const CreatNewPostDetail = () => {
     navigate(SCREENS.MINTINGPOST);
   };
 
-  const handleCreateThumbnail = async () => {
-    const result = await CompressVideo.compress(
-      Platform.OS == 'android' ? media.video : selectImage,
-      {
-        compressionMethod: 'auto',
-      },
-      progress => {
-        console.log(progress, 'result else');
-      },
-    );
-    const res = await createThumbnail({
-      url: Platform.OS == 'android' ? media.video : result,
-      timeStamp: 10000,
-    })
-      .then(response => {
-        setThumbnail(response);
-        console.log({response}, 'response');
-      })
-      .catch(err => console.log({err}, 'error'));
-  };
+  // const handleCreateThumbnail = async () => {
+  //   const result = await CompressVideo.compress(
+  //     Platform.OS == 'android' ? media.video : selectImage,
+  //     {
+  //       compressionMethod: 'auto',
+  //     },
+  //     progress => {
+  //       console.log(progress, 'result else');
+  //     },
+  //   );
+  //   const res = await createThumbnail({
+  //     url: Platform.OS == 'android' ? media.video : result,
+  //     timeStamp: 10000,
+  //   })
+  //     .then(response => {
+  //       setThumbnail(response);
+  //       console.log({response}, 'response');
+  //     })
+  //     .catch(err => console.log({err}, 'error'));
+  // };
 
   useEffect(() => {
     if (media.video || selectImage) {
-      handleCreateThumbnail();
+      // handleCreateThumbnail();
     }
   }, [media.video, selectImage]);
 
